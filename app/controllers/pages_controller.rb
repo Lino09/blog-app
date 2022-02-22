@@ -3,4 +3,8 @@ class PagesController < ApplicationController
   end
   def user
   end
+  def post
+  end
+  def posts
+  end
 end
