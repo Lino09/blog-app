@@ -1,0 +1,39 @@
+.posts-list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  gap: 24px;
+}
+
+.posts-list-item {
+  padding: 16px;
+  border: 1px solid indigo;
+}
+
+.posts-list-item h2 {
+  margin-bottom: 16px;
+}
+
+.posts-comments-list {
+  margin-top: 24px;
+  border-top: 1px solid indigo;
+  padding-top: 24px;
+  width: 100%;
+}
+
+.posts-comment {
+  padding: 8px;
+}
+
+.posts-comment:nth-child(even) {
+  background: #ccc;
+}
+
+.post {
+  margin-top: 32px;
+}
+
+.post-p {
+  margin-top: 24px;
+}
