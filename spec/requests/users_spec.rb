@@ -7,7 +7,7 @@ RSpec.describe 'Users', type: :request do
       expect(response).to have_http_status(200)
       expect(response).to render_template('index')
     end
-    it "get user page" do
+    it 'get user page' do
       get '/users/240'
       expect(response).to have_http_status(200)
       expect(response.body).to include('240')
